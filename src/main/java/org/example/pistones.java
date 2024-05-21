@@ -9,7 +9,7 @@ public class pistones {
    public int[] activos=new int [10];
 
     public void pistones(int tam){
-        if(tam>0 && tam<=10){
+        if(tam>0 && tam<11){
             activos[tam-1]=1;
         }
     }
@@ -24,5 +24,4 @@ public class pistones {
             System.out.println(piston[i]+" "+activos[i]);
         }
     }
-
 }

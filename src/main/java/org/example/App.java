@@ -24,7 +24,6 @@ public class App
                     nara.tiempo(tam);
                     list.contructor(nara);
                     list.reducir();
-                    list.comparar();
                 }else{
                     System.out.println(" ");
                 }
@@ -36,6 +35,7 @@ public class App
                Thread.sleep(1000);
                list.mostrar();
                list.pistonnnes.VerPistones();
+               System.out.println("\n");
            }catch(InterruptedException e){
                System.out.println("Se interrumpió el procesamiento de las naranjas");
            }

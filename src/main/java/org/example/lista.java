@@ -34,8 +34,9 @@ public class lista {
         while(NODO!=null){
             NODO.naranja.reduce();
             NODO=NODO.siguiente;
+            comparar();
         }
-        comparar();
+
     }
 
     public void comparar(){
